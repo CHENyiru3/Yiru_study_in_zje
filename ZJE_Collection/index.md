@@ -1,6 +1,8 @@
 # ZJE Collection
 
-Welcome — this site is generated from the repository's `ZJE_Collection` folder.
+Welcome — this site is generated from the repository's ZJE courses folder, from my own notes. If you have any further question, find me in xhs@生成一只头上戴着花花的小momo；or via email: c1556613010@outlook.com
+
+Do not blame me if these notes are not good! You can tell me and I will fix the errors.
 
 Browse the sections below:
 
@@ -17,7 +19,7 @@ Notes:
 - PDFs are kept in-place; check file sizes before publishing widely.
 - Filenames with spaces are preserved; consider renaming for cleaner URLs.
 
-## Downloads
+## Click to Downloads
 
 - Download the entire repository as a ZIP: [Download repo ZIP](https://github.com/CHENyiru3/Yiru_study_in_zje/archive/refs/heads/main.zip)
 - Per-folder ZIP downloads will be available here after deployment:
