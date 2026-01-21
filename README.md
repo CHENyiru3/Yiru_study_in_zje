@@ -1,7 +1,3 @@
-# Yiru_study_in_zje
-This is a personal but open-source repo for everyone. Hope I can you a little help in ZJE. Please feel free to raise up any question.
-----
-
 大家好，欢迎来本存储库。可以直接查看对应网站，方便在线查阅和下载文件：https://chenyiru3.github.io/Yiru_study_in_zje
 
 我是22级的yr同学，希望仓库能帮到你。欢迎大家分享自己的笔记！如果想要填补一下目前的空白（比如IBMS1，IFBS2等本人很差的学科的笔记；以及更多其他的选修课内容，或者觉得非常有用的general总结），欢迎随时pull request或者和我联系帮忙整理！
@@ -16,6 +12,7 @@ This is a personal but open-source repo for everyone. Hope I can you a little he
 本仓库内容已经使用严格非商用许可的LICENSE保护，未经允许请勿修改少许后，用作生财之道。
 
 统计：
+
 FILES:       98
 WORDS:   103160
 CHARS:   818130
