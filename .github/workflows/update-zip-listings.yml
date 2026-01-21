@@ -1,0 +1,41 @@
+name: Update ZIP listings
+
+on:
+  schedule:
+    - cron: '0 0 * * *'    # daily at UTC midnight
+  workflow_dispatch: {}
+  push:
+    branches: [ main ]
+  pull_request: {}
+
+jobs:
+  generate:
+    if: >-
+      github.event_name != 'push' || (github.event.head_commit != null && !contains(github.event.head_commit.message, '[skip ci]'))
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Run zip listing generator
+        run: |
+          python3 scripts/generate_zip_listings.py
+
+      - name: Commit generated files if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          if [ -n "$(git status --porcelain)" ]; then
+            git add ZJE_Collection/ZIPS_INDEX.md ZJE_Collection/zip_contents || true
+            git commit -m "[skip ci] Update ZIP listings" || echo "no changes to commit"
+            git push
+          else
+            echo "No changes to commit"
+          fi

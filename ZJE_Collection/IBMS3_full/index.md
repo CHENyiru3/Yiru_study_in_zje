@@ -1,13 +1,11 @@
 # IBMS3_full
 
-Files and subfolders:
+## Contributors
 
-- [一实验方法速查.pdf](一实验方法速查.pdf)
-- [考前整理(1).pdf](考前整理(1).pdf)
-- [Experimental Design & Ethics.pdf](Experimental Design & Ethics.pdf)
-- [IBMS Dry Lab 答题总结.pdf](IBMS Dry Lab 答题总结.pdf)
-- [IBMS Wet Lab 答题总结.pdf](IBMS Wet Lab 答题总结.pdf)
+- Yiru: [main materials](Yiru/index.md)
+- Xiaoran_etal: [additional materials](Xiaoran_etal/)
 
-Subfolders:
+## Files
 
-- [detailed/](detailed/)
+- Browse Yiru materials: [Yiru/](Yiru/)
+- Browse Xiaoran_etal materials: [Xiaoran_etal/](Xiaoran_etal/)

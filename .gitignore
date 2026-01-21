@@ -1,0 +1,9 @@
+# Ignore generated Yiru zips (created for Zenodo upload)
+ZJE_Collection/zip_contents/Yiru/*.zip
+
+# Do not store ZIP archives in git (host externally, e.g. Google Drive)
+ZJE_Collection/**/*.zip
+
+# macOS
+.DS_Store
+

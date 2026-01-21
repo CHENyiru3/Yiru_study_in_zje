@@ -1,7 +1,9 @@
 # BG2_sum
 
-Files:
+## Contributors
 
-- [calculation.pdf](calculation.pdf)
-- [Collection of disease.pdf](Collection of disease.pdf)
-- [Collection of technology.pdf](Collection of technology.pdf)
+- Yiru: [notes and PDFs](Yiru/index.md)
+
+## Files
+
+- Browse Yiru materials: [Yiru/](Yiru/)

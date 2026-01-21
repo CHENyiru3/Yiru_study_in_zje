@@ -8,3 +8,20 @@ markdown_extensions:
       permalink: true
 plugins:
   - search
+nav:
+  - Home: index.md
+  - Courses:
+    - BG2: BG2_sum/index.md
+    - GP2: GP2_sum/index.md
+    - IBMS3: IBMS3_full/index.md
+    - MBE3: MBE3_sum/index.md
+    - PoN3: PoN3_full/index.md
+    - IID_4: IID_4_full/index.md
+    - IFBS2: IFBS2_full/index.md
+    - IN: IN_full/index.md
+    - BaO2: BaO2/index.md
+    - MI2: MI2/index.md
+  - Contributors:
+    - Authors: AUTHORS.md
+    - Zips Index: ZIPS_INDEX.md
+  - Contributing: CONTRIBUTING.md

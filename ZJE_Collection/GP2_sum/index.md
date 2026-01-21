@@ -1,5 +1,9 @@
 # GP2_sum
 
-Files:
+## Contributors
 
-- [GP提纲.pdf](GP提纲.pdf)
+- Yiru: [notes and PDFs](Yiru/index.md)
+
+## Files
+
+- Browse Yiru materials: [Yiru/](Yiru/)
