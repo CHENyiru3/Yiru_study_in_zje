@@ -18,13 +18,42 @@ Browse the sections below, you can go through everything online:
 
 - [Code Cheatsheet](Code_Cheatsheet/)
 
-- Grade folders:
-	- [Year 1](Year1/)
-	- [Year 2](Year2/)
-	- [Year 3](Year3/)
-	- [Year 4](Year4/)
+## Courses by Year
 
-Note: individual course folders remain at the repo root under `ZJE_Collection/`. Use the Year pages above to find courses grouped by their year.
+### Year 1
+
+- CHEM1: [CHEM1/](CHEM1/)
+- IBI1: [IBI1/](IBI1/)
+- IBMS1: [IBMS1/](IBMS1/)
+- ICMB1: [ICMB1/](ICMB1/)
+- MATH1: [MATH1/](MATH1/)
+
+### Year 2
+
+- ADS2: [ADS2/](ADS2/)
+- BG2: [BG2/](BG2/)
+- BaO2: [BaO2/](BaO2/)
+- DST2: [DST2/](DST2/)
+- GP2: [GP2/](GP2/)
+- IFBS2: [IFBS2/](IFBS2/)
+- MI2: [MI2/](MI2/)
+
+### Year 3
+
+- BMI3: [BMI3/](BMI3/)
+- CBSB3: [CBSB3/](CBSB3/)
+- IBMS3: [IBMS3/](IBMS3/)
+- IN3: [IN3/](IN3_full/)
+- MBE3: [MBE3/](MBE3/)
+- PoN3: [PoN3/](PoN3/)
+
+### Year 4
+
+- BIA4: [BIA4/](BIA4/)
+- IBMS4: [IBMS4/](IBMS4/)
+- IID_4: [IID_4/](IID_4/)
+
+Note: individual course folders remain at the repo root under `ZJE_Collection/`. Use the Year pages (Year1–Year4) for a compact view, or click a course above to open its page.
 
 Notes:
 
