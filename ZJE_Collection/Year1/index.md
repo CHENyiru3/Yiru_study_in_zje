@@ -1,9 +1,13 @@
-# Year 1
+# Year 1 Courses
 
-Courses (Year 1):
+[Back to main page](../index.md)
 
-- CHEM1: [CHEM1/](../CHEM1/)
-- IBI1: [IBI1/](../IBI1/)
-- IBMS1: [IBMS1/](../IBMS1/)
-- ICMB1: [ICMB1/](../ICMB1/)
-- MATH1: [MATH1/](../MATH1/)
+## Available Courses
+
+| | |
+|---|---|
+| [CHEM1](../CHEM1/) | Chemistry |
+| [IBI1](../IBI1/) | Introduction to Biomedicine |
+| [IBMS1](../IBMS1/) | Biomedical Sciences |
+| [ICMB1](../ICMB1/) | Cell & Molecular Biology |
+| [MATH1](../MATH1/) | Mathematics |

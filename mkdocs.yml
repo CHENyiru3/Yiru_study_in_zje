@@ -1,42 +1,94 @@
 site_name: ZJE Collection
 site_url: https://CHENyiru3.github.io/Yiru_study_in_zje
 docs_dir: ZJE_Collection
+site_author: ZJE Contributors
+site_description: ZJE Study Materials Collection - Course notes, summaries, and study resources
+
+repo_url: https://github.com/CHENyiru3/Yiru_study_in_zje
+repo_name: Yiru_study_in_zje
+
 theme:
   name: material
+  logo: images/logo.png
+  favicon: images/favicon.png
+
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.path
+    - navigation.top
+    - navigation.tracking
+    - search.suggest
+    - search.highlight
+    - search.share
+    - toc.integrate
+
+  palette:
+    primary: blue
+    accent: blue
+
+  icon:
+    repo: fontawesome/brands/github
+
+  header:
+    logo:
+      icon: school
+    elements:
+      - icon: fontawesome/brands/github
+        link: https://github.com/CHENyiru3/Yiru_study_in_zje
+        type: absolute_corner
+
+  footer:
+    copyright: |
+      &copy; 2024 ZJE Collection<br>
+      <a href="#">Privacy Policy</a> &bull; <a href="#">Terms of Service</a>
+    social:
+      - icon: fontawesome/brands/github
+        link: https://github.com/CHENyiru3/Yiru_study_in_zje
+        name: GitHub Repository
+
+plugins:
+  - search:
+      prebuild_index: true
+      separator: '[\s\-\.]+'
+
 markdown_extensions:
   - toc:
       permalink: true
-plugins:
-  - search
+  - admonition
+  - tables
+  - footnotes
+  - def_list
+
 nav:
   - Home: index.md
-  - Courses:
-    - Year 1:
-      - CHEM1: CHEM1/index.md
-      - IBI1: IBI1/index.md
-      - IBMS1: IBMS1/index.md
-      - ICMB1: ICMB1/index.md
-      - MATH1: MATH1/index.md
-    - Year 2:
-      - ADS2: ADS2/index.md
-      - BG2: BG2/index.md
-      - BaO2: BaO2/index.md
-      - DST2: DST2/index.md
-      - GP2: GP2/index.md
-      - IFBS2: IFBS2/index.md
-      - MI2: MI2/index.md
-    - Year 3:
-      - BMI3: BMI3/index.md
-      - CBSB3: CBSB3/index.md
-      - IBMS3: IBMS3/index.md
-      - IN3: IN3_full/index.md
-      - MBE3: MBE3/index.md
-      - PoN3: PoN3/index.md
-    - Year 4:
-      - BIA4: BIA4/index.md
-      - IBMS4: IBMS4/index.md
-      - IID_4: IID_4/index.md
-    
+  - Year 1:
+    - CHEM1: CHEM1/index.md
+    - IBI1: IBI1/index.md
+    - IBMS1: IBMS1/index.md
+    - ICMB1: ICMB1/index.md
+    - MATH1: MATH1/index.md
+  - Year 2:
+    - ADS2: ADS2/index.md
+    - BG2: BG2/index.md
+    - BaO2: BaO2/index.md
+    - DST2: DST2/index.md
+    - GP2: GP2/index.md
+    - IFBS2: IFBS2/index.md
+    - MI2: MI2/index.md
+  - Year 3:
+    - BMI3: BMI3/index.md
+    - CBSB3: CBSB3/index.md
+    - IBMS3: IBMS3/index.md
+    - IN3: IN3_full/index.md
+    - MBE3: MBE3/index.md
+    - PoN3: PoN3/index.md
+  - Year 4:
+    - BIA4: BIA4/index.md
+    - IBMS4: IBMS4/index.md
+    - IID_4: IID_4/index.md
+  - Resources:
+    - Code Cheatsheet: Code_Cheatsheet/index.md
   - Contributors:
     - Authors: AUTHORS.md
     - Zips Index: ZIPS_INDEX.md
