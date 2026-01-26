@@ -1,5 +1,5 @@
 site_name: ZJE Collection
-site_url: https://CHENyiru3.github.io/Yiru_study_in_zje
+site_url: https://chenyiru3.github.io/My_Notes_Four_ZJE/
 docs_dir: ZJE_Collection
 site_author: ZJE Contributors
 site_description: ZJE Study Materials Collection - Course notes, summaries, and study resources
@@ -9,30 +9,18 @@ repo_name: Yiru_study_in_zje
 
 theme:
   name: material
-  logo: images/logo.png
-  favicon: images/favicon.png
-
   features:
     - navigation.tabs
     - navigation.sections
     - navigation.path
     - navigation.top
-    - navigation.tracking
     - search.suggest
     - search.highlight
-    - search.share
-    - toc.integrate
-
-  palette:
-    primary: blue
-    accent: blue
 
   icon:
     repo: fontawesome/brands/github
 
   header:
-    logo:
-      icon: school
     elements:
       - icon: fontawesome/brands/github
         link: https://github.com/CHENyiru3/Yiru_study_in_zje
@@ -40,8 +28,7 @@ theme:
 
   footer:
     copyright: |
-      &copy; 2024 ZJE Collection<br>
-      <a href="#">Privacy Policy</a> &bull; <a href="#">Terms of Service</a>
+      &copy; 2024 ZJE Collection
     social:
       - icon: fontawesome/brands/github
         link: https://github.com/CHENyiru3/Yiru_study_in_zje
@@ -49,16 +36,13 @@ theme:
 
 plugins:
   - search:
-      prebuild_index: true
       separator: '[\s\-\.]+'
 
 markdown_extensions:
   - toc:
       permalink: true
-  - admonition
   - tables
   - footnotes
-  - def_list
 
 nav:
   - Home: index.md
